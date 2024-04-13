@@ -1,6 +1,6 @@
 {
   "name": "@taab-app/utils",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Set of utilities to streamline building Taab extensions",
   "author": "Taab",
   "main": "dist/index.js",
@@ -15,16 +15,13 @@
     "test": "npm run lint",
     "prepublishOnly": "npm run build && npm test"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "license": "MIT",
   "peerDependencies": {
     "bun": "^0.8.0",
     "react": "^18.2.0"
   },
   "dependencies": {
-    "@taab-app/api": "^0.0.13",
+    "@taab-app/api": "^0.0.15",
     "content-type": "^1.0.5",
     "cross-fetch": "^3.1.6",
     "dequal": "^2.0.3",
